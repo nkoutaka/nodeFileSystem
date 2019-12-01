@@ -1,6 +1,19 @@
 # nodeFileSystem
 A collection of scripts that operate on local files using Nodejs.
 
+## Description
+### listUpFiles
+A script that recursively retrieves files under a specific directory and creates a list of file names (file paths).
+
+### deleteFiles
+A script that deletes the file with the specified path.
+
+### changeLines
+A script that recursively retrieves files under a specific directory and corrects them line by line.
+
+### grepFiles
+A script that recursively retrieves files under a specific directory and lists the files that contain each keyword.
+
 ## ✅ Requirements
 - Nodejs v12.1.0
 
@@ -15,7 +28,7 @@ $ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile
 
 ## 🚀 Usage
 
-change the current directory 'nodeFileSystem'.
+Change the current directory 'nodeFileSystem'.
 
 ```bash
 $ cd nodeFileSystem
